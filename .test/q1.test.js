@@ -1,5 +1,5 @@
-// const func = require("../q1");
-import func from "../q1";
+const func = require("../q1");
+// import func from "../q1";
 
 const input3 = 7;
 const output3 = "Kurtis Weissnat";
