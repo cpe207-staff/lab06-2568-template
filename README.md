@@ -58,16 +58,16 @@ $ pnpm update
 - `tsx` เพื่อให้สามารถรันโค้ด TypeScript ได้โดยไม่ต้อง compile
 - `nodemon` เพื่อให้สามารถรันโค้ด JavaScript ได้เมื่อไฟล์มีการเปลี่ยนแปลง (optional)
 
-ติดตั้ง `Axios` package ที่จำเป็นแบบ dependencies ด้วย PNPM
-
-```bash
-$ pnpm install axios
-```
-
 ติดตั้ง package อื่นๆ ที่จำเป็นแบบ development dependencies ด้วย PNPM
 
 ```bash
 $ pnpm install -D typescript  @types/node  tsx
+```
+
+ติดตั้ง `Axios` package ที่จำเป็นแบบ dependencies ด้วย PNPM
+
+```bash
+$ pnpm install axios
 ```
 
 สร้างไฟล์ `tsconfig.json` เพื่อกำหนดค่าการทำงานให้ **TypeScript** ของโปรเจคนี้ โดยการรันคำสั่งต่อไปนี้ภายในโฟลเดอร์ของโปรเจค
