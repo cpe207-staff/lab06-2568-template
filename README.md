@@ -54,7 +54,7 @@ $ pnpm update
 
 - `axios` : เพื่อใช้ในการสร้าง HTTP request สำหรับการดึงข้อมูล
 - `TypeScript` : เพื่อให้สามารถเขียนโค้ด TypeScript ในโปรเจคนี้
-- `@types@node` : เพื่อเพิ่มข้อมูล Type definition ให้ node.js
+- `@types/node` : เพื่อเพิ่มข้อมูล Type definition ให้ node.js
 - `tsx` เพื่อให้สามารถรันโค้ด TypeScript ได้โดยไม่ต้อง compile
 - `nodemon` เพื่อให้สามารถรันโค้ด JavaScript ได้เมื่อไฟล์มีการเปลี่ยนแปลง (optional)
 
