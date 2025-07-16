@@ -92,27 +92,11 @@ $ tsc --init
 $ npx tsx <filename.ts>
 ```
 
-เมื่อต้องการแปลงโค้ด TypeScript เป็น JavaScript ให้ใช้คำสั่งต่อไปนี้
-
-```bash
-$ npx tsc [filename.ts]
-```
-
-แล้วทำการรันไฟล์ JavaScript ด้วยคำสั่ง
-
-```bash
-$ node <filename.js>
-```
-
-หรือใช้คำสั่ง `nodemon` ในการรันเพื่อให้โปรแกรมถูก restart ทันทีเมื่อไฟล์ Javascript ถูกอัพเดต
-
-```bash
-$ nodemon <filename.js>
-```
+---
 
 ### ทดสอบการทำงานกับ Testcase ที่ใช้ในระบบ Classroom autograder
 
-ระบบจะระบบจะตรวจสอบการทำงานจากไฟล์ JavaScript ที่ได้จากการ compile เท่านั้น ดังนั้นจึงต้องทำการ compile ด้วยคำสั่ง npx tsc <filename.ts> เสียก่อน จากนั้นตรวจการทำงานกับ Testcase ด้วยคำสั่ง
+**หมายเหตุ:** ใน lab นี้ ได้มีการปรับให้สามารถตรวจสอบการทำงานจากไฟล์ `TypeScript` ได้เลย (ไม่ต้อง compile ให้ได้ไฟล์ `JavaScript`) โดยใช้คำสั่งต่อไปนี้ในการตรวจสอบความถูกต้อง
 
 ```bash
 $ npm run test q1     // เพื่อตรวจข้อ q1
