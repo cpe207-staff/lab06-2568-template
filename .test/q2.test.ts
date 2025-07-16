@@ -1,5 +1,4 @@
-const func = require("../q2");
-// import func from "../q2";
+import func from "../q2";
 
 const input4 = 177;
 const output4 = {
