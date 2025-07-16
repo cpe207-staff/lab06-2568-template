@@ -70,21 +70,7 @@ $ pnpm install -D typescript  @types/node  tsx
 $ pnpm install axios
 ```
 
-สร้างไฟล์ `tsconfig.json` เพื่อกำหนดค่าการทำงานให้ **TypeScript** ของโปรเจคนี้ โดยการรันคำสั่งต่อไปนี้ภายในโฟลเดอร์ของโปรเจค
-
-```bash
-$ tsc --init
-```
-
-แก้ไขค่าในไฟล์ `tsconfig.json` ในส่วนของ **`compilerOptions`** ดังต่อไปนี้
-
-```json
-"target": "es2016"        // output script version
-"rootDir": "./"           // sourcecode directory (ค้นหาไฟล์ *.ts ในโฟลเดอร์ใด)
-"outDir": "./"            // output directory (บันทึกไฟล์ *.js ที่เป็นผลลัพธ์ในโฟลเดอร์ใด)
-"removeComments": false    // remove comments
-"noEmitOnError": true     // don't emit if there is an error
-```
+**หมายเหตุ:** ใน lab นี้ ได้มีการสร้างไฟล์ `tsconfig.json` ไว้ให้ นศ. แล้ว
 
 เมื่อต้องการรันไฟล์ TypeScript โดยไม่จำเป็นต้อง Compile สามารถใช้คำสั่งต่อไปนี้
 
